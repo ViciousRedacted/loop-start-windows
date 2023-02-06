@@ -1,5 +1,5 @@
 @echo off
-copy "loop start.bat" "C:\Users\thund\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+copy "loop start.bat" "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 GOTO start
 
 :start
